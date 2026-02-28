@@ -1,0 +1,6 @@
+<button (click)="displayUserData()">Click to Display Users</button>
+<div *ngFor="let item of data">
+  <p>{{ item.name }}</p>
+  <p>{{ item.email }}</p>
+   <p>{{ item.phone }}</p>
+</div>
